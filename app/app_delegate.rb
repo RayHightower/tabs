@@ -5,9 +5,9 @@ class AppDelegate
     @tabController = UITabBarController.alloc.init
     @vc1 = MyViewController.alloc.initWithTabBar
     @vc2 = MyOtherViewController.alloc.initWithTabBar
+    @vc3 = MyThirdViewController.alloc.initWithTabBar
 
-
-    @tabController.viewControllers = [@vc1, @vc2]
+    @tabController.viewControllers = [@vc1, @vc2, @vc3]
 
     @window.rootViewController = @tabController
     
