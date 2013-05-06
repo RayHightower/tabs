@@ -10,8 +10,8 @@ class AppDelegate
     @vc5 = MyThirdViewController.alloc.initWithTabBar
 
     @tabController.viewControllers = [@vc1, @vc2, @vc3]
-    @tabController.viewControlers << @vc4
-    @tabController.viewControlers << @vc5
+    @tabController.viewControllers << @vc4
+    @tabController.viewControllers << @vc5
 
 
     @window.rootViewController = @tabController
