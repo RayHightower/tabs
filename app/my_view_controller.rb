@@ -3,7 +3,7 @@ class MyViewController < UIViewController
   def initWithTabBar
     me = init
     anImage = UIImage.imageNamed("first.png")
-    me.tabBarItem = UITabBarItem.alloc.initWithTitle("First", image:anImage, tag:1)
+    me.tabBarItem = UITabBarItem.alloc.initWithTitle("1st", image:anImage, tag:1)
     me
   end
 
