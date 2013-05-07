@@ -10,8 +10,6 @@ class AppDelegate
     @vc5 = MyFifthViewController.alloc.initWithTabBar
 
     @tabController.viewControllers = [@vc1, @vc2, @vc3, @vc4, @vc5]
-#     @tabController.viewControllers << @vc4
-#     @tabController.viewControllers << @vc5
 
     @window.rootViewController = @tabController
     

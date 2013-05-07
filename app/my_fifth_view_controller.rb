@@ -3,7 +3,7 @@ class MyFifthViewController < UIViewController
   def initWithTabBar
     me = init
     anImage = UIImage.imageNamed("fifth.png")
-    me.tabBarItem = UITabBarItem.alloc.initWithTitle("Fifth", image:anImage, tag:4)
+    me.tabBarItem = UITabBarItem.alloc.initWithTitle("5th", image:anImage, tag:4)
     me
   end
 
