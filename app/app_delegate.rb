@@ -8,8 +8,9 @@ class AppDelegate
     @vc3 = MyThirdViewController.alloc.initWithTabBar
     @vc4 = MyFourthViewController.alloc.initWithTabBar
     @vc5 = MyFifthViewController.alloc.initWithTabBar
+    @vc6 = MySixthViewController.alloc.initWithTabBar
 
-    @tabController.viewControllers = [@vc1, @vc2, @vc3, @vc4, @vc5]
+    @tabController.viewControllers = [@vc1, @vc2, @vc3, @vc4, @vc5, @vc6]
 
     @window.rootViewController = @tabController
     
