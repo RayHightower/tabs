@@ -1,18 +1,19 @@
-class MySixthViewController < UIViewController
+class MyZerothViewController < UIViewController
 
   def initWithTabBar
     me = init
-    anImage = UIImage.imageNamed("sixth.png")
-    me.tabBarItem = UITabBarItem.alloc.initWithTitle("6th", image:anImage, tag:6)
+    anImage = UIImage.imageNamed("zero.png")
+    me.tabBarItem = UITabBarItem.alloc.initWithTitle("0th", image:anImage, tag:1)
     me
   end
 
   def viewDidLoad
     label = UILabel.alloc.initWithFrame([[15,100], [280,140]])
-    label.text = "Sixth View"
+    label.text = "Zeroth View"
     label.font = UIFont.boldSystemFontOfSize(25)
-    label.textColor = UIColor.greenColor
+    label.textColor = UIColor.blackColor
     label.textAlignment = UITextAlignmentCenter
     view.addSubview(label)
   end
+
 end
