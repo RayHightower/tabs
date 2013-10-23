@@ -11,7 +11,7 @@ class MyViewController < UIViewController
     label = UILabel.alloc.initWithFrame([[15,100], [280,140]])
     label.text = "First View"
     label.font = UIFont.boldSystemFontOfSize(25)
-    label.textColor = UIColor.blackColor
+    label.textColor = UIColor.whiteColor
     label.textAlignment = UITextAlignmentCenter
     view.addSubview(label)
   end
