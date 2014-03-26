@@ -13,7 +13,7 @@ class AppDelegate
 
     @tabController.viewControllers = [@vc1, @vc2, @vc3, @vc4, @vc5, @vc6]
 
-#    @window.backgroundColor = UIColor.blueColor
+    @window.backgroundColor = UIColor.whiteColor
     @window.rootViewController = @tabController
     
     @window.makeKeyAndVisible
